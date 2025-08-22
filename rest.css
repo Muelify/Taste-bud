@@ -24,7 +24,7 @@
   background-position: center;
   height: 100vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url("images/beyti-kebab-served-with-ayran-pickles.jpg");
+    url("beyti-kebab-served-with-ayran-pickles.jpg");
   position: relative;
   overflow: visible !important;
   padding: 8px;
@@ -67,3 +67,4 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
