@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: inter, sans-serif;
+}
+
+.rest1 {
+  position: relative;
+  overflow: visible !important;
+  /* height: 5000px; */
+}
+
+.nav1{
+  position: fixed !important;
+  z-index: 9999 !important;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.head {
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("images/beyti-kebab-served-with-ayran-pickles.jpg");
+  position: relative;
+  overflow: visible !important;
+  padding: 8px;
+}
+
+.head-text {
+  padding-top: 60px;
+  margin-top: 120px;
+  text-align: center;
+}
+
+/* Remove slide-up on close, keep fade only */
+.offcanvas.offcanvas-top {
+  transform: none !important; /* stop sliding */
+}
+
+.offcanvas.fade {
+  transition: opacity 0.1s ease; /* fade only */
+}
+
+/* Initially hidden */
+.offcanvas-body {
+  opacity: 0;
+  transform: translateY(10px); /* small slide down effect (optional) */
+  position: relative; /* makes transform not affect header flow */
+  transition: opacity 0.4s ease, transform 0.4s ease;
+}
+
+/* When the offcanvas is shown, trigger fade-in */
+.offcanvas.show .offcanvas-body {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.first-textt {
+  font-family: "Playfair Display", serif;
+
+  font-weight: bold;
+  background: linear-gradient(90deg, #ff7e5f, #feb47b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
